@@ -22,6 +22,12 @@ For workshop particiapnts please use the code in 'workshop_code'.
 
 Full solutions and missing functions are located in the folder 'code'.
 
+## Background Material
+* A short summary on widefield Ca imaging and functional parcellation (chapter 5) - https://www.spiedigitallibrary.org/journalArticle/Download?urlId=10.1117%2F1.NPh.9.4.041402
+* Diffusion map (wiki) - https://en.wikipedia.org/wiki/Diffusion_map
+* Dimensionality reduction of correlation matrices based on diffusion map (See Materials and Methods section) - https://github.com/cardin-higley-lab/Benisty_etal_2021
+
+
 ## Project
 ### Task A: visualize data
 1. plot the anatomic parcellation map saved in '../data/atlas.mat'
