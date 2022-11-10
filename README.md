@@ -16,8 +16,7 @@ data/atlas.mat - stores the anatomic parcellation map (by the Allen institute fo
 Pre-processed R-mean - evaluated in advanced stored in data/Rmean_animal1.mat and data/Rmean_animal2.mat
 
 ## Code
-For workshop particiapnts please use the code in 'workshop_code'. 
-* Main script for workshop - main.m
+For workshop particiapnts please use the code in 'workshop_code', main script for workshop - main.m
  
 
 Full solutions and missing functions are located in the folder 'code'.
