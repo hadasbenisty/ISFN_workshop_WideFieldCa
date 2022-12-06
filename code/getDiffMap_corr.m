@@ -18,7 +18,10 @@ function  [phi_c_R, proj_c_R, Lambda_c_R, ...
 %
 %
 
-
+for i = 1:size(tC, 3)
+    tC(:, :, i) = tC(:,:,i)+ eye(size(tC(:,:,i), 1))*0.1;
+end
+    
 %% embedd c(t) using R-norm
 MM = min(1000, size(tC, 3));
 idnsrand = randperm(size(tC, 3));
