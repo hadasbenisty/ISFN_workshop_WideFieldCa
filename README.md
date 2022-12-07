@@ -8,8 +8,8 @@ Imaging data (two animals) is stored in mat files (data/data_animal1.mat, data/d
 * x - brain parcels X T matrix of traces of neuronal activity related to functional parcels. 
 * t - T X 1 time trace
 * func_map - a 256X256 matrix of the animal's brain indicating the location of each brain parcel. An area number i in this map corresponds to the activity of the i-th trace in x
-* Behavior_traces - 2 X T, time traces of sponteneous behavior 
-* Behaiovr_labels - 2 X 1 indicating which behavior traces are stored 
+* Behavior_traces - 3 X T, time traces of sponteneous behavior 
+* Behaiovr_labels - 3 X 1 indicating which behavior traces are stored 
 
 data/atlas.mat - stores the anatomic parcellation map (by the Allen institute for brain research)
 
